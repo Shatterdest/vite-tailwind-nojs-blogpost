@@ -10,10 +10,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mukta', sans-serif;
+}
 a {
   @apply font-medium text-[#646cff];
 }
 a:hover {
   @apply text-[#535bf2];
+}
+.title{
+  text-align: center;
 }

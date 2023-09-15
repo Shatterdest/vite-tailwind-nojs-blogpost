@@ -10,16 +10,45 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-body{
+
+body {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Mukta', sans-serif;
+  height: 100%;
+  width: 100%
 }
+
 a {
-  @apply font-medium text-[#646cff];
+  @apply font-medium text-[#191c53];
 }
+
 a:hover {
-  @apply text-[#535bf2];
+  @apply text-[#3137a8];
 }
-.title{
+
+#title {
   text-align: center;
+}
+
+.blog {
+  width: 85vw;
+  margin: 41px auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.card__title {
+  font-size: 41px;
+  text-align: center;
+}
+
+.image {
+  width: 60%;
+  height: 60%;
+  margin: 25px auto;
+}
+
+.link {
+  margin-bottom: 0;
 }

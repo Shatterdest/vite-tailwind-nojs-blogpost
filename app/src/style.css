@@ -52,3 +52,10 @@ a:hover {
 .link {
   margin-bottom: 0;
 }
+
+.button {
+  border-width: 2px;
+  border-color: white;
+  background-color: black;
+  display: flex;
+}

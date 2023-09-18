@@ -36,6 +36,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   border-radius: 25px;
+  background-color: #1a00ff24;
 }
 
 .card__title {
